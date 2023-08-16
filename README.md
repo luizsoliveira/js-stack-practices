@@ -1,2 +1,2 @@
-# js-stack-practices
-Scratch for some daily JS practices.
+# Some scratches to teach JS
+Scratches for some daily JS practices.
