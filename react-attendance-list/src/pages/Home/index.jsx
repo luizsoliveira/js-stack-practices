@@ -77,7 +77,10 @@ function Home() {
       </button>
       
       <div className='statsline'>
-      <small> {`Exibindo ${students.length} estudante${students.length>1 ? 's' : ''}.`}</small>
+        { students.length > 0 &&
+          <small> {`Displaying ${students.length} student${students.length>1 ? 's' : ''}.`}</small>
+        }
+      
       </div>
       
 
