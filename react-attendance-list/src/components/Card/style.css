@@ -29,3 +29,25 @@
     display: flex;
     align-items: center;
   }
+
+  .card div small {
+    display: block;
+  }
+
+  .card div button {
+    padding: 6px;
+  
+    font-weight: 700;
+  
+    background: #FFFFFF;
+    color: #3c44ba;
+  
+    border-radius: 5px;
+    margin: 6px 0 6px;
+    border: none;
+  
+    cursor: pointer;
+    transition: filter 0.2s;
+  
+    font-size: 14px;
+  }
